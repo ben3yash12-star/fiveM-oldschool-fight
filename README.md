@@ -1,2 +1,42 @@
-# fiveM-oldschool-fight
-FiveM Old School Fight System - نظام قتال أصلي كامل
+# Old School Fight
+
+نظام قتال أصلي ومخصص لـ FiveM بأسلوب كلاسيكي وبناء حديث، مستوحى من الفكرة العامة للقتال القديم، مع تركيز على:
+
+- Combo attacks
+- Block
+- Dodge
+- Stamina system
+- HUD بسيط ومريح
+- نظام ضربة/تأثيرات سريعة
+
+## التثبيت
+
+1. ضع المجلد داخل مجلد `resources`
+2. أضف السطر التالي داخل `server.cfg`:
+
+```cfg
+ensure fiveM-oldschool-fight
+```
+
+3. أعد تشغيل السيرفر أو ابدأ الـ resource
+
+## الأوامر
+
+- `/fight` أو زر mouse left
+- `/block` أو زر mouse right
+- `/dodge` أو زر sprint/jump
+
+## ملاحظات
+
+هذا المشروع أصلي ومصمم من الصفر، ولا ينسخ أي ملف أو مقطع أو نظام محمي. الفكرة تعتمد على أسلوب قتال كلاسيكي عام، وليس على نسخة محددة من عمل آخر.
+
+## تعديل الإعدادات
+
+يمكنك تعديل الملفات داخل:
+
+- `shared/config.lua`
+- `shared/combos.lua`
+
+## المساهمة
+
+إذا أردت تعديل الأسماء أو إضافة ضربات جديدة أو HUD أقوى، أضفها داخل ملفات الـ client/ و shared.

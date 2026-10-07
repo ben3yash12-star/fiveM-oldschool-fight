@@ -1,8 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'بن ياشر - Ben Yasher'
-description 'نظام قتال كلاسيكي أصلي - Old School Fight System'
+author 'Ben Yasher'
+description 'Old School Fight System - نظام قتال أصلي كلاسيكي'
 version '1.0.0'
 
 lua54 'yes'
@@ -22,11 +22,4 @@ server_scripts {
 shared_scripts {
     'shared/config.lua',
     'shared/combos.lua'
-}
-
-escrow_ignore {
-    'shared/config.lua',
-    'shared/combos.lua',
-    'client/main.lua',
-    'server/main.lua'
 }
